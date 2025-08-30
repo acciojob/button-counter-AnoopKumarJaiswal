@@ -18,7 +18,7 @@ function Clicked() {
   return(
     <div>
     <p>Button clicked {val} times</p>
-    <button  onClick(() => setVal(val+1)>Click me</button>
+    <button  onClick = {() => setVal(val + 1)}>Click me</button>
     </div>
   )
 }
